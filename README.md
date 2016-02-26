@@ -1,29 +1,18 @@
 # testhome-cookbook
 
-TODO: Enter the cookbook description here.
+This cookbook creates a file, index.html, in /root. It has a dependency, ack cookbook, just to test dependency management with Berkshelf. I am using this cookbook from this Vagrant project: [https://github.com/rtacconi/chef-solo-demo](https://github.com/rtacconi/chef-solo-demo).
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+Linux
 
 ## Attributes
 
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['testhome']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
+None
 
 ## Usage
+
+Just run the default recipe, see below
 
 ### testhome::default
 
@@ -39,4 +28,4 @@ Include `testhome` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: Riccardo Tacconi (<rtacconi@gmail.com>)
